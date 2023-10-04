@@ -1,3 +1,4 @@
+{{--
 
     <div class="outer-wrap inverse-wrapper">
         <div id="video-wrap" class="video-wrap">
@@ -16,4 +17,5 @@
         <!-- /.video-wrap -->
     </div>
 
-@include('app')
+
+--}}
