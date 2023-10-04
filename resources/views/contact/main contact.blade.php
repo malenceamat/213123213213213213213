@@ -1,14 +1,18 @@
 @extends('layouts.app')
 
 
+@section('content')
 
-@section('about')
     @include('contact.about')
+    @include('contact.news')
+    @include('contact.photo')
+    @include('contact.possibilities')
+    @include('contact.process')
+    @include('contact.video')
+
 @endsection
 
-@section('news')
-
-    <div class="light-wrapper">
+    {{--<div class="light-wrapper">
         <div class="container inner">
             <div class="section-title text-center">
                 <h3>Timeline Blog</h3>
@@ -125,13 +129,14 @@
         <!-- /.container -->
 
     </div>
+--}}
 
 
-@endsection
 
 
 
-@section('photo')
+
+{{--
 
     <div class="inverse-wrapper inner bp0">
         <div class="container">
@@ -153,14 +158,15 @@
     </div>
 
 
+--}}
 
 
-@endsection
 
 
 
-@section('pos')
 
+
+{{--
     <div class="light-wrapper">
         <div class="container inner">
             <div class="headline text-center">
@@ -238,10 +244,8 @@
 
 
 
-@endsection
 
 
-@section('process')
 
 
     <div class="light-wrapper">
@@ -287,10 +291,9 @@
     </div>
     <!-- /.light-wrapper -->
 
-@endsection
 
 
-@section('video')
+
 
 
     <div class="outer-wrap inverse-wrapper">
@@ -308,7 +311,9 @@
             <!-- /.container -->
         </div>
         <!-- /.video-wrap -->
-    </div>
+    </div>--}}
 
 
-@endsection
+
+
+

@@ -1,4 +1,3 @@
-{{--
 
     <div class="light-wrapper">
         <div class="container inner">
@@ -42,4 +41,3 @@
         <!--/.container -->
     </div>
     <!-- /.light-wrapper -->
---}}

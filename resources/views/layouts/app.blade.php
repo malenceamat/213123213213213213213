@@ -27,40 +27,12 @@
 </head>
 <body>
 
+
 @include('layouts.navbar')
 
-@yield('banner')
-
-<div class="container">
-    @yield('gallery')
-
-</div>
-
-@yield('about')
-
-<div class="container">
-    @yield('news')
-
-</div>
+@yield('content')
 
 
-    @yield('photo')
-
-
-
-<div class="container">
-    @yield('pos')
-
-</div>
-
-
-<div class="container">
-    @yield('process')
-
-</div>
-
-
-    @yield('video')
 
 
 @include('layouts.footer')

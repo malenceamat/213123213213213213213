@@ -1,4 +1,3 @@
-{{--
 
     <div class="outer-wrap inverse-wrapper">
         <div id="video-wrap" class="video-wrap">
@@ -18,4 +17,3 @@
     </div>
 
 
---}}
