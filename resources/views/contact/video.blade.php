@@ -1,5 +1,4 @@
-@extends('layouts.app')
-@section('video')
+
     <div class="outer-wrap inverse-wrapper">
         <div id="video-wrap" class="video-wrap">
             <video preload="metadata" playsinline autoplay muted loop id="video-office">
@@ -17,4 +16,4 @@
         <!-- /.video-wrap -->
     </div>
 
-@endsection
+@include('app')
